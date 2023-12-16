@@ -1,12 +1,6 @@
-nav {
-    margin-bottom: 20vh;
-}
 
-.margin-t {
-    margin-top: 8vh;
-}
-
-.a, .b {
+/*Bloques */
+.a {
     min-height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,12 +14,121 @@ nav {
 }
 
 .a {
-    background-image: url(/Media/IMG/TorresP.jpg);
+    background-image: url(/Media/IMG/rio.jpg);
+}
+.b {
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    
+    color: black;
+}
+.c {
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+}
+.d {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+
+    color: rgb(0, 0, 0);
+
+}
+.e {
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
 }
 
+.f {
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    background-image: url(/Media/IMG/puente.jpg);
+}
+
+@media (max-width: 800px) {
+    .f {
+        width: 100%; 
+        background-image: url(/Media/IMG/puente.jpg);
+    }
+}
+.g {
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    background-image: url(/Media/IMG/bosque.jpg);
+}
+
+@media (max-width: 800px) {
+    .g {
+        width: 100%; 
+        background-image: url(/Media/IMG/bosque.jpg);
+    }
+}
+/*Editores*/
+nav {
+    margin-bottom: 20vh;
+}
+
+.margin-t {
+    margin-top: 8vh;
+}
+.margin-t-texto {
+    margin-top: 20vh;
+}
 section{
     text-align: center;
     justify-content: center;
     margin: auto;
     
+}
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
 }
