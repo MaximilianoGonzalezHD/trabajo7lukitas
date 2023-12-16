@@ -1,0 +1,31 @@
+nav {
+    margin-bottom: 20vh;
+}
+
+.margin-t {
+    margin-top: 8vh;
+}
+
+.a, .b {
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    color: aliceblue;
+}
+
+.a {
+    background-image: url(/Media/IMG/TorresP.jpg);
+}
+
+section{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+}
