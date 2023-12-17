@@ -1,0 +1,30 @@
+/*Under*/
+footer {
+    background-color: #74848a;
+    color: #8d8d8d;
+    padding: 3px;
+    text-align: center;
+    font-size: 15px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    margin-top: 200px;
+    width: 100%;
+    padding: 2%;    
+}
+
+.transparent-input {
+    border: solid #4e454536;
+    border-radius: 10px;
+    border-bottom:  solid  #4e454536; 
+    outline: none;
+    background-color: transparent;
+    width: 200px; 
+    padding: 8px;
+    font-size: 16px;
+    color: #ffffff6b;
+}
+.transparent-input::placeholder {
+    color: #ffffff79; 
+}
+
+/*carousel*/
