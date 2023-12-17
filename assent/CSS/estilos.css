@@ -13,7 +13,7 @@
 }
 
 .a {
-    background-image: url(/Media/IMG/rio.jpg);
+    background-image: url(/assent/Media/IMG/rio.jpg);
 }
 
 .b {
@@ -82,13 +82,13 @@
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
-    background-image: url(/Media/IMG/puente.jpg);
+    background-image: url(/assent/Media/IMG/puente.jpg);
 }
 
 @media (max-width: 800px) {
     .f {
         width: 100%;
-        background-image: url(/Media/IMG/puente.jpg);
+        background-image: url(/assent/Media/IMG/puente.jpg);
     }
 }
 
@@ -104,13 +104,13 @@
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
-    background-image: url(/Media/IMG/bosque.jpg);
+    background-image: url(/assent/Media/IMG/bosque.jpg);
 }
 
 @media (max-width: 800px) {
     .g {
         width: 100%;
-        background-image: url(/Media/IMG/bosque.jpg);
+        background-image: url(/assent/Media/IMG/bosque.jpg);
     }
 }
 
@@ -166,7 +166,7 @@
 
     color: aliceblue;
 
-    background-image: url(/Media/IMG/desierto.jpg);
+    background-image: url(/assent/Media/IMG/desierto.jpg);
 }
 
 .l {
@@ -227,7 +227,7 @@ section {
 @media (max-width: 800px) {
     .imgbig {
         width: 100%;
-        background-image: url(/Media/IMG/bosque.jpg);
+        background-image: url(/assent/Media/IMG/bosque.jpg);
     }
 }
 
