@@ -214,8 +214,9 @@ section {
 
 .imgsmall {
     height: 300px;
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .imgbig {
